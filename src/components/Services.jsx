@@ -14,10 +14,10 @@ export default function Services() {
           <div className="primary-item">
             <h3>Residential</h3>
             <h4>Private Residences</h4>
-            <img
-              src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1600&auto=format&fit=crop"
-              alt="Residential Projects"
-            />
+            <img 
+    src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2070" 
+    alt="Residential Architecture" 
+  />
             <p>
               Bespoke homes crafted with architectural precision, refined
               detailing, and lifestyle-driven design — creating timeless,
