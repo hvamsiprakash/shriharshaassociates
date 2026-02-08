@@ -1,6 +1,6 @@
 /* =========================================================
    ABOUT PAGE - PREMIUM ENHANCED ULTIMATE
-   Creamy White Theme | Larger Logo | MINIMAL GAPS
+   Creamy White Theme | Larger Logo | PERFECT UNIFORM SPACING
    Advanced Animations | Uniform Typography
 ========================================================= */
 
@@ -130,7 +130,7 @@
 }
 
 /* =========================================================
-   COMPANY STORY - MINIMAL GAPS
+   COMPANY STORY - UNIFORM SPACING
 ========================================================= */
 
 .about-story {
@@ -155,7 +155,7 @@
 
 .story-header {
   text-align: center;
-  margin-bottom: 8px; /* MINIMAL GAP - Tight spacing between heading and content */
+  margin-bottom: 24px; /* UNIFORM - Same as founder-header */
 }
 
 .story-header h2 {
@@ -164,7 +164,7 @@
   font-weight: 500;
   letter-spacing: 0.5px;
   color: #111;
-  margin-bottom: 6px; /* Minimal space from accent line */
+  margin-bottom: 6px;
   opacity: 0;
   animation: fadeSlideUp 0.8s ease 0.6s forwards;
 }
@@ -173,7 +173,7 @@
   width: 80px;
   height: 2px;
   background: linear-gradient(to right, transparent, #c9b896, transparent);
-  margin: 0 auto 0; /* No bottom margin */
+  margin: 0 auto 0;
   opacity: 0;
   transform: scaleX(0);
   animation: accentGrow 0.8s ease 0.8s forwards;
@@ -194,7 +194,7 @@
 .story-content {
   max-width: 900px;
   margin: 0 auto;
-  padding-top: 8px; /* Minimal top padding */
+  padding-top: 0; /* NO EXTRA PADDING */
 }
 
 .story-quote {
@@ -262,7 +262,7 @@
 }
 
 /* =========================================================
-   FOUNDER SECTION - MINIMAL GAPS
+   FOUNDER SECTION - PERFECT UNIFORM SPACING
 ========================================================= */
 
 .founder-section {
@@ -369,15 +369,15 @@
   box-shadow: 0 0 30px rgba(201, 184, 150, 0.2);
 }
 
-/* FOUNDER CONTENT - MINIMAL GAPS */
+/* FOUNDER CONTENT - PERFECT UNIFORM SPACING */
 .founder-content {
   padding-top: 0;
 }
 
-/* FOUNDER DETAILS HEADER - MINIMAL GAP */
+/* FOUNDER DETAILS HEADER - UNIFORM WITH COMPANY OVERVIEW */
 .founder-header {
   text-align: center;
-  margin-bottom: 8px; /* MINIMAL GAP - Tight spacing */
+  margin-bottom: 24px; /* UNIFORM - Same as story-header */
 }
 
 .founder-header h2 {
@@ -386,24 +386,24 @@
   font-weight: 500;
   letter-spacing: 0.5px;
   color: #111;
-  margin-bottom: 6px; /* Minimal space from accent line */
+  margin-bottom: 6px;
   opacity: 0;
   animation: fadeSlideUp 0.8s ease 0.6s forwards;
 }
 
-/* NAME - TIGHT SPACING */
+/* NAME - UNIFORM SPACING */
 .founder-content h3 {
   font-family: "Playfair Display", serif;
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 6px; /* TIGHT - Minimal space between name & title */
+  margin-bottom: 6px; /* TIGHT - Clean space between name & title */
   line-height: 1.1;
   color: #111;
   opacity: 0;
   animation: textSlide 0.8s ease 1s forwards;
 }
 
-/* TITLE - TIGHT SPACING */
+/* TITLE - UNIFORM SPACING */
 .founder-content span {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -411,7 +411,7 @@
   text-transform: uppercase;
   color: #c9b896;
   display: block;
-  margin-bottom: 24px; /* TIGHT - Minimal space before paragraphs */
+  margin-bottom: 20px; /* REDUCED - No extra gap before content */
   font-weight: 600;
   opacity: 0;
   animation: textSlide 0.8s ease 1.1s forwards;
@@ -729,7 +729,7 @@
 
   .story-header,
   .founder-header {
-    margin-bottom: 8px;
+    margin-bottom: 22px; /* UNIFORM on tablet */
   }
 
   .story-header h2,
@@ -739,7 +739,7 @@
   }
 
   .story-content {
-    padding-top: 8px;
+    padding-top: 0;
   }
 
   .story-quote,
@@ -767,7 +767,7 @@
   }
 
   .founder-content span {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   .about-stats {
@@ -812,7 +812,7 @@
 
   .story-header,
   .founder-header {
-    margin-bottom: 6px;
+    margin-bottom: 20px; /* UNIFORM on mobile */
   }
 
   .story-header h2,
@@ -822,7 +822,7 @@
   }
 
   .story-content {
-    padding-top: 6px;
+    padding-top: 0;
   }
 
   .story-quote,
@@ -860,7 +860,7 @@
 
   .founder-content span {
     font-size: 12px;
-    margin-bottom: 22px;
+    margin-bottom: 18px;
   }
 
   .about-stats {
@@ -916,7 +916,7 @@
 
   .story-header,
   .founder-header {
-    margin-bottom: 6px;
+    margin-bottom: 18px; /* UNIFORM on small mobile */
   }
 
   .story-header h2,
@@ -926,7 +926,7 @@
   }
 
   .story-content {
-    padding-top: 6px;
+    padding-top: 0;
   }
 
   .story-quote p,
@@ -952,7 +952,7 @@
   }
 
   .founder-content span {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
 
   .about-stats {
