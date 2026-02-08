@@ -83,7 +83,7 @@
   padding: 0 80px;
 }
 
-/* NEW UNIQUE BACKGROUND IMAGES - EXTERIOR COMMERCIAL BUILDING */
+/* NEW UNIQUE BACKGROUND IMAGES - NOT REPEATED FROM OTHER PAGES */
 .residential-hero {
   background-image: url('https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071');
 }
@@ -131,7 +131,6 @@
   line-height: 1.15;
 }
 
-/* SINGLE LINE QUOTES FOR HERO SECTIONS */
 .category-hero-content p {
   font-family: "Playfair Display", serif;
   font-size: 18px;
@@ -144,15 +143,9 @@
     0 4px 18px rgba(0, 0, 0, 0.9),
     0 2px 10px rgba(0, 0, 0, 0.8);
   max-width: 800px;
-}
-
-.residential-desc,
-.commercial-desc,
-.interiors-desc {
-  display: block;
   white-space: nowrap;
-  overflow: visible;
-  text-overflow: clip;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* =========================================================
@@ -465,15 +458,15 @@
 }
 
 /* =========================================================
-   INTERIOR QUOTE - FULLY VISIBLE SINGLE LINE
+   INTERIOR QUOTE - SINGLE LINE - UPDATED: NO BACKGROUND, BLACK TEXT
 ========================================================= */
 
 .interior-quote {
   text-align: center;
   padding: 60px 40px;
-  background: linear-gradient(135deg, #f5f3ef 0%, #f9f7f4 100%);
-  border-top: 1px solid rgba(201,184,150,0.1);
-  border-bottom: 1px solid rgba(201,184,150,0.1);
+  background: transparent;
+  border-top: none;
+  border-bottom: none;
   margin-bottom: 64px;
   opacity: 0;
   animation: fadeIn 0.9s ease 0.8s forwards;
@@ -481,17 +474,17 @@
 
 .interior-quote p {
   font-family: "Playfair Display", serif;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 400;
   font-style: italic;
-  color: #c9b896;
+  color: #000000;
   position: relative;
-  padding: 0 60px;
-  max-width: 100%;
+  padding: 0 40px;
+  max-width: 1000px;
   margin: 0 auto;
-  display: block;
   white-space: nowrap;
-  overflow: visible;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .interior-quote p::before,
@@ -505,12 +498,12 @@
 }
 
 .interior-quote p::before {
-  left: 10px;
+  left: 0;
   top: -10px;
 }
 
 .interior-quote p::after {
-  right: 10px;
+  right: 0;
   bottom: -20px;
 }
 
@@ -725,7 +718,7 @@
   }
 
   .interior-quote p {
-    font-size: 28px;
+    font-size: 30px;
   }
   
   .category-hero-content p {
@@ -740,10 +733,6 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
   .category-hero-content p {
     font-size: 18px;
-  }
-  
-  .interior-quote p {
-    font-size: 26px;
   }
 }
 
@@ -792,9 +781,8 @@
   }
 
   .interior-quote p {
-    font-size: 24px;
+    font-size: 26px;
     white-space: normal;
-    padding: 0 50px;
   }
 
   .main-image-container {
@@ -935,17 +923,9 @@
   }
 
   .interior-quote p {
-    font-size: 20px;
-    padding: 0 35px;
+    font-size: 22px;
+    padding: 0 30px;
     white-space: normal;
-  }
-  
-  .interior-quote p::before {
-    left: 5px;
-  }
-  
-  .interior-quote p::after {
-    right: 5px;
   }
 
   .main-image-container {
@@ -1087,19 +1067,9 @@
   }
 
   .interior-quote p {
-    font-size: 18px;
-    padding: 0 30px;
+    font-size: 20px;
+    padding: 0 24px;
     white-space: normal;
-  }
-  
-  .interior-quote p::before {
-    left: 2px;
-    font-size: 40px;
-  }
-  
-  .interior-quote p::after {
-    right: 2px;
-    font-size: 40px;
   }
 
   .main-image-container {
